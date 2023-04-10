@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { useQuery, gql } from '@apollo/client';
 
 import './App.css'
@@ -6,11 +5,9 @@ import './App.css'
 
 const GET_CUSTOMERS = gql`
   query{
-  test
+  privateCall
   }
 `;
-
-
 
 
 function App() {
